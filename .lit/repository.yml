@@ -1,22 +1,24 @@
+---
 schema_version: 1
-managed_by: lightning-it/shared-assets
+managed_by: lightning-it/shared-assets-lit
 repository: aio
 visibility: public
+license_spdx: MIT
 repository_type: generic_managed
 release_type: none
 artifact_type: none
 test_profiles:
-- repository-structure
+  - repository-structure
 os_matrix:
-- ubuntu-latest
+  - ubuntu-latest
 product_matrix:
-- generic
+  - generic
 publishing_targets: []
 galaxy_publish: false
 quay_publish: false
 release_evidence: false
 heavy_incus_required: false
 readme_badges:
-- license
+  - license
 workflows:
   ci: repository-quality.yml

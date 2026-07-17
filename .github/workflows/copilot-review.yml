@@ -242,13 +242,13 @@ jobs:
                       )
                     | select(.state == "COMMENTED")
                     | select(.commit.oid == $head)
-                    | .id' <<<"${response}"
+                    | (.id // empty)' <<<"${response}"
               )"
               while IFS= read -r review_id; do
                 if [ -z "${review_id}" ]; then
                   continue
                 fi
-                if [ -n "${rejected_review_ids[${review_id}]:-}" ]; then
+                if [ -n "${rejected_review_ids["${review_id}"]:-}" ]; then
                   continue
                 fi
                 if review_comments_clean "${review_id}" "${head_sha}"; then

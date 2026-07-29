@@ -39,6 +39,7 @@ jobs:
         id: policy-app
         if: >-
           github.event.pull_request.draft == false
+          && github.actor == 'lightning-it-shared-assets-sync[bot]'
           && github.event.pull_request.user.login == 'lightning-it-shared-assets-sync[bot]'
           && github.event.pull_request.head.repo.full_name == github.repository
           && github.event.pull_request.base.ref == 'develop'

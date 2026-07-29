@@ -21,16 +21,16 @@ Publishing targets: `none`.
 
 ## Supported and Tested Platforms
 
-| Platform / Product | Status | Validation |
-|---|---:|---|
-| ubuntu-latest | Supported | Repository quality |
-| generic | Tested where applicable | Repository quality |
+| Platform / Product |                  Status | Validation         |
+| ------------------ | ----------------------: | ------------------ |
+| ubuntu-latest      |               Supported | Repository quality |
+| generic            | Tested where applicable | Repository quality |
 
 <!-- END LIT_SHARED_RELEASE_MODEL -->
 
 <!-- BEGIN LIT_QUALITY_BADGES -->
 
-[![CI](https://github.com/lightning-it/aio/actions/workflows/repository-quality.yml/badge.svg?branch=main)](https://github.com/lightning-it/aio/actions/workflows/repository-quality.yml)
+[![CI](https://github.com/lightning-it/aio/actions/workflows/repository-quality.yml/badge.svg?branch=develop)](https://github.com/lightning-it/aio/actions/workflows/repository-quality.yml)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/lightning-it/aio/badge)](https://scorecard.dev/viewer/?uri=github.com/lightning-it/aio)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 

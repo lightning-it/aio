@@ -59,8 +59,8 @@
         ".github/workflows/workbench-public-acceptance.yml"
       ],
       "matchDepNames": ["python"],
-      "allowedVersions": "/^3\\.13(?:\\.\\d+)?$/",
-      "groupName": "python 3.13 lockfile runtimes"
+      "allowedVersions": "/^3\\.14(?:\\.\\d+)?$/",
+      "groupName": "python 3.14 lockfile runtimes"
     }
   ]
 }

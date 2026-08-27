@@ -1,0 +1,7 @@
+{
+  "develop_parent_sha": "ee9f6159b046fd10770ee47b23768eedb8a84a3d",
+  "main_sha": "538777127de24a921c6a3c6558f2c1d19dd29ca6",
+  "purpose": "Bind the reviewed main ancestry backmerge.",
+  "repository": "lightning-it/aio",
+  "schema_version": 1
+}
